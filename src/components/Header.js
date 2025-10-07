@@ -14,7 +14,6 @@ export default function Header({ currentDate }) {
 
   return (
     <header className="w-full bg-white  relative">
-      {/* Top info strip */}
       <div className="bg-blue-50 p-2 md:p-4">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-2 md:space-y-0">
           <div className="flex flex-wrap items-center space-x-2 md:space-x-6">
@@ -73,7 +72,6 @@ export default function Header({ currentDate }) {
         </div>
       </div>
 
-      {/* Logo + Weather + Hamburger */}
       <div className="bg-white p-2 md:p-4">
         <div className="bg-white flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col sm:flex-row items-center justify-center  sm:items-start space-y-2 sm:space-y-0 sm:space-x-3 w-full sm:w-2/3" style={{alignItems:"center"}}>
